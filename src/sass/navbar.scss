@@ -1,13 +1,13 @@
 @charset "UTF-8";
 $text-color: #590d22;
-// $color-n: #800f2f;
-// $color-n: #a4133c;
+$color-2: #800f2f;
+$color-3: #a4133c;
 $hover-link: #c9184a;
-// $color-n: #ff4d6d;
+$color-4: #ff4d6d;
 $svg-fill-color: #ff758f;
-// $color-n: #ff8fa3;
-// $color-n: #ffb3c1;
-// $color-n: #ffccd5;
+$color-5: #ff8fa3;
+$color-6: #ffb3c1;
+$color-7: #ffccd5;
 
 //--- MAIN ---//
 .header {
@@ -90,7 +90,7 @@ $svg-fill-color: #ff758f;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: $svg-fill-color;
+  background: linear-gradient(298deg, $color-5 4%, $color-4 63%);
   transition: all 0.5s ease-in-out;
 
   > * {
@@ -109,9 +109,10 @@ $svg-fill-color: #ff758f;
   }
 }
 
-svg {
-  fill: $svg-fill-color;
-}
+// svg {
+//   fill: $svg-fill-color;
+//   // fill: linear-gradient(298deg, $color-5c 4%, #ff4d6d 63%);
+// }
 
 // .test {
 //   height: 200vh;
