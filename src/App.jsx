@@ -8,6 +8,7 @@ export default function App() {
   return (
     <div>
       <Navbar />
+      <h1 id="fuck"></h1>
     </div>
   );
 }
