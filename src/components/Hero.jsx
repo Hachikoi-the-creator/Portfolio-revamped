@@ -19,6 +19,7 @@ export default function Hero() {
               1500,
               "Gamer 🎮",
               1000,
+              "Not a designer 😛",
             ]}
             loop={Infinity}
             wrapper="p"
