@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="250mm"
+   height="157mm"
+   viewBox="0 0 250 157"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="main-logosvg.svg"
+   sodipodi:docname="big-good-logo.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -17,16 +17,16 @@
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
+     bordercolor="#ff00a5"
+     borderopacity="0.93333333"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4110391"
-     inkscape:cx="367.10534"
-     inkscape:cy="475.89042"
+     inkscape:zoom="0.49887766"
+     inkscape:cx="972.18224"
+     inkscape:cy="347.78066"
      inkscape:window-width="1287"
      inkscape:window-height="745"
      inkscape:window-x="-8"
@@ -39,10 +39,10 @@
        data-v-fde0c5aa=""
        gradientTransform="rotate(25)"
        id="608f495c-0d2d-44bf-a095-32161846a177"
-       x1="0%"
-       y1="0%"
-       x2="100%"
-       y2="0%">
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0">
       <stop
          data-v-fde0c5aa=""
          offset="0%"
@@ -61,19 +61,19 @@
        xlink:href="#608f495c-0d2d-44bf-a095-32161846a177"
        id="linearGradient177"
        gradientTransform="scale(0.60076389,1.6645475)"
-       x1="83.670142"
-       y1="16.591897"
-       x2="84.272709"
-       y2="16.591897"
+       x1="83.670143"
+       y1="16.591896"
+       x2="84.272713"
+       y2="16.591896"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#608f495c-0d2d-44bf-a095-32161846a177"
        id="linearGradient179"
-       x1="49.321"
-       y1="27.314"
+       x1="49.320999"
+       y1="27.313999"
        x2="50.681"
-       y2="27.314"
+       y2="27.313999"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -81,19 +81,19 @@
        id="linearGradient181"
        gradientTransform="scale(0.30143115,3.3175072)"
        x1="167.12274"
-       y1="8.2718736"
+       y1="8.2718735"
        x2="180.15723"
-       y2="8.2718736"
+       y2="8.2718735"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#608f495c-0d2d-44bf-a095-32161846a177"
        id="linearGradient183"
        gradientTransform="scale(1.3803579,0.72444979)"
-       x1="3.622249"
-       y1="36.416602"
-       x2="68.823455"
-       y2="36.416602"
+       x1="3.6222489"
+       y1="36.416603"
+       x2="68.823456"
+       y2="36.416603"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -101,19 +101,19 @@
        id="linearGradient185"
        gradientTransform="scale(1.0921871,0.91559402)"
        x1="17.211336"
-       y1="34.763224"
-       x2="52.303309"
-       y2="34.763224"
+       y1="34.763226"
+       x2="52.30331"
+       y2="34.763226"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#608f495c-0d2d-44bf-a095-32161846a177"
        id="linearGradient187"
        gradientTransform="scale(1.3803579,0.72444979)"
-       x1="3.622249"
-       y1="36.416602"
-       x2="68.823455"
-       y2="36.416602"
+       x1="3.6222489"
+       y1="36.416603"
+       x2="68.823456"
+       y2="36.416603"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -122,7 +122,7 @@
      id="layer1">
     <g
        id="g175"
-       transform="matrix(0.26458333,0,0,0.26458333,58.958924,91.045534)">
+       transform="matrix(2.1878498,0,0,1.7453713,15.320766,7.6164367)">
       <rect
          data-v-fde0c5aa=""
          fill="#e5eafe"
@@ -133,7 +133,7 @@
          class="logo-background-square"
          id="rect127"
          ry="20.552229"
-         style="fill:#d4f7fe;fill-opacity:0.14574899" />
+         style="fill:#d4f7fe;fill-opacity:0.145749" />
       <g
          data-v-fde0c5aa=""
          id="b581b947-4f75-4864-b42b-6c4b12b619bb"

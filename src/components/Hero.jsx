@@ -1,6 +1,7 @@
 import React from "react";
 import "../sass/hero.scss";
 import Typical from "react-typical";
+import bigLogo from "../img/main-logo.svg";
 
 export default function Hero() {
   return (
@@ -11,17 +12,19 @@ export default function Hero() {
           <Typical
             steps={[
               "Programmer 💻",
-              1000,
+              1200,
               "Web Developer 🕸️",
-              100,
+              1300,
               "Lifelong Learner 🧠",
+              1500,
+              "Gamer 🎮",
               1000,
             ]}
             loop={Infinity}
             wrapper="p"
           />
-          {/* -lifelong learner -Programmer -Web developer -Pythonista -JScripter */}
         </h1>
+        <img src={bigLogo} alt="Cool logo whit a computer, and blue gradient" />
       </div>
     </section>
   );

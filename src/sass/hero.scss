@@ -20,9 +20,26 @@ $color-7: #ffccd5;
   margin-left: 10%;
   padding-top: 220px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
 
   h1 {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
     margin-top: 5ch;
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+
+  img {
+    margin: 10px;
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    flex-direction: column-reverse;
   }
 }
