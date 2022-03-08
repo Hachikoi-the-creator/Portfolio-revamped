@@ -7,8 +7,9 @@ $svg-fill-color: #ff758f;
 $color-5: #ff8fa3;
 $color-6: #ffb3c1;
 $color-7: #ffccd5;
+
 .hero {
-  height: 180vh;
+  height: fit-content;
   margin-top: -160px;
   background: center / contain no-repeat
       radial-gradient(rgba(228, 228, 228, 0.671), rgba(255, 255, 255, 0.383)),
@@ -38,8 +39,46 @@ $color-7: #ffccd5;
   }
 }
 
+.socials {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 3ch 15%;
+  align-items: center;
+
+  > * {
+    width: fit-content;
+    position: relative;
+  }
+
+  .linked {
+    transform: translateX(-100%);
+  }
+
+  .resume {
+    translate: 100%;
+    transform: translateY(-166%);
+  }
+
+  .github svg,
+  .twitter svg,
+  .resume svg,
+  .linked svg {
+    width: 69px;
+    fill: $svg-fill-color;
+
+    &:hover {
+      fill: $hover-link;
+    }
+  }
+}
+
 @media screen and (max-width: 700px) {
   .content {
     flex-direction: column-reverse;
+  }
+
+  .content h1 {
+    margin-top: 1ch;
   }
 }

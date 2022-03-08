@@ -49,9 +49,9 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
-      <h1>
+      {/* <h1>
         width: {width} - height {height}
-      </h1>
+      </h1> */}
     </div>
   );
 }

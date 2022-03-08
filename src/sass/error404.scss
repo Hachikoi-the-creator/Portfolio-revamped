@@ -1,0 +1,18 @@
+.error-page {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.error--svg {
+  width: 100vw;
+}
+
+.error--link {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100vw;
+  letter-spacing: 6px;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
