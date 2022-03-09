@@ -1,17 +1,123 @@
 // @import "./variables";
-$text-color: #590d22;
+$color-1: #590d22;
 $color-2: #800f2f;
 $color-3: #a4133c;
-$hover-link: #c9184a;
-$color-4: #ff4d6d;
-$svg-fill-color: #ff758f;
-$color-5: #ff8fa3;
-$color-6: #ffb3c1;
-$color-7: #ffccd5;
+$color-4: #c9184a;
+$color-5: #ff4d6d;
+$color-6: #ff758f;
+$color-7: #ff8fa3;
+$color-8: #ffb3c1;
+$color-9: #ffccd5;
+
+// $column-height: 190px;
 
 .projects {
   width: 80vw;
-  margin: 0 10vw;
+  margin: 30px 10vw;
   height: fit-content;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, fit-content);
+  gap: 7px;
+
+  * {
+    border-radius: 7px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  // Layout for big screen
+  img {
+    &.project1 {
+      grid-area: 2/1;
+    }
+    &.project2 {
+      grid-area: 1/2;
+    }
+    &.project3 {
+      grid-area: 2/3;
+    }
+    &.project4 {
+      grid-area: 1/4;
+    }
+  }
+
+  .desc {
+    border: 1px solid $color-4;
+    &.project1 {
+      grid-area: 1/1;
+    }
+    &.project2 {
+      grid-area: 2/2;
+    }
+    &.project3 {
+      grid-area: 1/3;
+    }
+    &.project4 {
+      grid-area: 2/4;
+    }
+  }
+
+  .tech {
+    padding: 0.5px;
+    border-radius: 7px;
+    margin: 0.2px 0.6px;
+    border: 0.2px solid $color-4;
+  }
 }
+
+// <= 1024px
+@media screen and (max-width: 1025px) {
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, fit-content);
+    background-color: pink;
+
+    img {
+      &.project1 {
+        grid-area: 2/1;
+      }
+      &.project2 {
+        grid-area: 1/2;
+      }
+      &.project3 {
+        grid-area: 3/2;
+      }
+      &.project4 {
+        grid-area: 4/1;
+      }
+    }
+
+    .desc {
+      &.project1 {
+        grid-area: 1/1;
+      }
+      &.project2 {
+        grid-area: 2/2;
+      }
+      &.project3 {
+        grid-area: 3/1;
+      }
+      &.project4 {
+        grid-area: 4/2;
+      }
+    }
+  }
+}
+
+// <=700px
+@media screen and (max-width: 700px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 102, 128, 0.644);
+  }
+}
+
+// 320px — 480px: Mobile devices.
+// 481px — 768px: iPads, Tablets.
+// 769px — 1024px: Small screens, laptops.
+// 1025px — 1200px: Desktops, large screens.
+// 1201px and more — Extra large screens, TV.

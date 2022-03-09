@@ -5,7 +5,7 @@
   margin-top: -160px;
   background: center / contain no-repeat
       radial-gradient(rgba(228, 228, 228, 0.671), rgba(255, 255, 255, 0.383)),
-    $color-7 50% url("../img/ougi-bg.webp");
+    $color-9 50% url("../img/ougi-bg.webp");
 }
 
 .content {
@@ -19,6 +19,7 @@
   flex-direction: column;
 
   h1 {
+    height: 4ch;
     font-family: "Roboto Mono", monospace;
     font-weight: 300;
     margin-top: 5ch;
@@ -58,10 +59,10 @@
   .resume svg,
   .linked svg {
     width: 69px;
-    fill: $svg-fill-color;
+    fill: $color-6;
 
     &:hover {
-      fill: $hover-link;
+      fill: $color-4;
     }
   }
 }
@@ -69,6 +70,10 @@
 @media screen and (max-width: 700px) {
   .content {
     flex-direction: column-reverse;
+
+    h1 {
+      height: 7ch;
+    }
   }
 
   .content h1 {
