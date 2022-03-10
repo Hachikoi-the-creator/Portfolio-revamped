@@ -10,8 +10,22 @@ $color-8: #ffb3c1;
 $color-9: #ffccd5;
 
 // $column-height: 190px;
+.pp-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    padding-inline: 13px;
+    width: fit-content;
+    font-size: 5rem;
+    color: $color-2;
+    border-bottom: 1.3px solid $color-3;
+  }
+}
 
 .projects {
+  font-size: 1.3rem;
   width: 80vw;
   margin: 30px 10vw;
   height: fit-content;
@@ -29,7 +43,15 @@ $color-9: #ffccd5;
   }
 
   // Layout for big screen
-  img {
+  a {
+    fill: $color-5;
+    color: $color-5;
+
+    &:hover {
+      fill: $color-3;
+      color: $color-3;
+    }
+
     &.project1 {
       grid-area: 2/1;
     }
@@ -66,6 +88,20 @@ $color-9: #ffccd5;
     margin: 0.2px 0.6px;
     border: 0.2px solid $color-4;
   }
+
+  .source {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      // color: #590d22;
+    }
+
+    svg {
+      width: 2ch;
+    }
+  }
 }
 
 // <= 1024px
@@ -75,7 +111,7 @@ $color-9: #ffccd5;
     grid-template-rows: repeat(4, fit-content);
     background-color: pink;
 
-    img {
+    a {
       &.project1 {
         grid-area: 2/1;
       }
