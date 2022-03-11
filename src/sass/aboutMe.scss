@@ -1,0 +1,57 @@
+// @import "./variables";
+
+$color-1: #590d22;
+$color-2: #800f2f;
+$color-3: #a4133c;
+$color-4: #c9184a;
+$color-5: #ff4d6d;
+$color-6: #ff758f;
+$color-7: #ff8fa3;
+$color-8: #ffb3c1;
+$color-9: #ffccd5;
+
+.about-me {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    padding: 3px 7px;
+    width: fit-content;
+    font-size: 5rem;
+    color: $color-4;
+    border-bottom: 5px solid $color-5;
+    border-radius: 7px;
+  }
+
+  .desc {
+    width: 50%;
+  }
+}
+
+.main {
+  display: flex;
+}
+
+.tech-stack {
+  width: 50%;
+  display: flex;
+
+  img {
+    width: 69px;
+  }
+
+  * {
+    width: 100%;
+  }
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -4,12 +4,17 @@ import blackjackProject from "../img/blackjack-game.webp";
 export default function Project2() {
   return (
     <>
-      <div className="desc project2">
+      <div className="desc project2 flex-project">
         <h3>Blackjack Game</h3>
+        <div className="tech-stack">
+          <span className="tech css">CSS</span>
+          <span className="tech html">HTML</span>
+          <span className="tech js">JavaScript</span>
+        </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-          animi ipsa nobis sequi, hic sit totam perferendis. Sed animi quidem
-          laboriosam.
+          The real challenge whit this project was to figure out how to make it
+          work given my limited knowledge of the game, never really understood
+          it, but I guess it pseudo-works after reading those blogs :D
         </p>
         <div className="source">
           <a href="#">

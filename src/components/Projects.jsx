@@ -7,7 +7,7 @@ import Project4 from "../subComponnents/Project4";
 
 export default function Projects() {
   return (
-    <section className="pp-container">
+    <section className="pp-container" id="projects">
       <h2>Projects</h2>
       <div className="projects">
         <Project1 />

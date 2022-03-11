@@ -1,33 +1,33 @@
-// @import "./variables";
-$color-1: #590d22;
-$color-2: #800f2f;
-$color-3: #a4133c;
-$color-4: #c9184a;
-$color-5: #ff4d6d;
-$color-6: #ff758f;
-$color-7: #ff8fa3;
-$color-8: #ffb3c1;
-$color-9: #ffccd5;
+@import "./variables";
+// $color-1: #590d22;
+// $color-2: #800f2f;
+// $color-3: #a4133c;
+// $color-4: #c9184a;
+// $color-5: #ff4d6d;
+// $color-6: #ff758f;
+// $color-7: #ff8fa3;
+// $color-8: #ffb3c1;
+// $color-9: #ffccd5;
 
-// $column-height: 190px;
 .pp-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 
   h2 {
-    padding-inline: 13px;
+    padding: 3px 7px;
     width: fit-content;
     font-size: 5rem;
-    color: $color-2;
-    border-bottom: 1.3px solid $color-3;
+    color: $color-4;
+    border-bottom: 5px solid $color-5;
+    border-radius: 7px;
   }
 }
 
 .projects {
   font-size: 1.3rem;
   width: 80vw;
-  margin: 30px 10vw;
+  margin: 30px 0;
   height: fit-content;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -52,6 +52,7 @@ $color-9: #ffccd5;
       color: $color-3;
     }
 
+    // Make the cool grid :D
     &.project1 {
       grid-area: 2/1;
     }
@@ -82,14 +83,48 @@ $color-9: #ffccd5;
     }
   }
 
+  .flex-project {
+    // helper class to push "source code to bottom"
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      text-align: center;
+      text-shadow: 0 0 1px $color-7;
+    }
+  }
+
   .tech {
     padding: 0.5px;
     border-radius: 7px;
     margin: 0.2px 0.6px;
-    border: 0.2px solid $color-4;
+    border: 0.2px solid rgba(0, 0, 0, 0.363);
+    color: rgba(0, 0, 0, 0.856);
+    text-shadow: 0 0 1px #000;
+  }
+
+  .css {
+    background-color: rgba(35, 74, 216, 0.97);
+  }
+  .sass {
+    background-color: rgba(206, 80, 143, 0.97);
+  }
+  .react {
+    background-color: rgba(9, 207, 242, 0.97);
+  }
+  .html {
+    background-color: rgba(229, 96, 39, 0.97);
+  }
+  .js {
+    background-color: rgba(234, 213, 26, 0.97);
+  }
+  .ts {
+    background-color: rgba(46, 115, 188, 0.97);
   }
 
   .source {
+    margin-top: auto;
+
     a {
       display: flex;
       align-items: center;

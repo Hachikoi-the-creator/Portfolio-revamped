@@ -4,12 +4,18 @@ import googleProject from "../img/google-mod.webp";
 export default function Project4() {
   return (
     <>
-      <div className="desc project4">
-        <h3>Google 4</h3>
+      <div className="desc project4 flex-project">
+        <h3>Cheat Calculator</h3>
+        <div className="tech-stack">
+          <span className="tech css">CSS</span>
+          <span className="tech react">React</span>
+          <span className="tech html">HTML</span>
+          <span className="tech ts">TypeScript</span>
+        </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-          animi ipsa nobis sequi, hic sit totam perferendis. Sed animi quidem
-          laboriosam.
+          The hardest thing here was to link all he buttons and make them work
+          as expected in vanilla JS, gave up and decided to just learn TS
+          instead. best desicion ever made
         </p>
         <div className="source">
           <a href="#">

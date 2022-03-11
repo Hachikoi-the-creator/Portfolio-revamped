@@ -4,12 +4,18 @@ import FlexDocProject from "../img/flesbos.webp";
 export default function Project3() {
   return (
     <>
-      <div className="desc project3">
+      <div className="desc project3 flex-project">
         <h3>Flexbox Interactive</h3>
+        <div className="tech-stack">
+          <span className="tech sass">SASS</span>
+          <span className="tech js">JavaScript</span>
+          <span className="tech html">HTML</span>
+          <span className="tech css">CSS</span>
+        </div>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-          animi ipsa nobis sequi, hic sit totam perferendis. Sed animi quidem
-          laboriosam.
+          This was a project I wanted to do for weeks, but was not able to find
+          a code higligh lib, but since I knew nothing about react the project
+          ended up being an HTML file 500+ lines long T.T
         </p>
         <div className="source">
           <a href="#">
