@@ -35,10 +35,15 @@
   gap: 7px;
 
   * {
+    width: fit-content;
+  }
+
+  > * {
     border-radius: 7px;
   }
 
   img {
+    border-radius: 7px;
     width: 100%;
   }
 
@@ -124,13 +129,14 @@
 
   .source {
     margin-top: auto;
+    align-self: center;
 
     a {
+      font-size: 2rem;
       display: flex;
       align-items: center;
       justify-content: center;
       text-decoration: none;
-      // color: #590d22;
     }
 
     svg {

@@ -10,6 +10,10 @@ import js from "../img/stack/js-icon.svg";
 import python from "../img/stack/python-icon.svg";
 import react from "../img/stack/react-icon.svg";
 import ts from "../img/stack/ts-icon.svg";
+import arduino from "../img/stack/arduino-icon.svg";
+import pandas from "../img/stack/pandas-icon.svg";
+import sklearn from "../img/stack/sklearn-icon.svg";
+import bash from "../img/stack/bash-icon.svg";
 
 export default function AboutMe() {
   return (
@@ -24,21 +28,24 @@ export default function AboutMe() {
           I'm just giving my all to web development 🕸️.
         </p>
       </div>
-      <div className="tech-stack">
-        <div className="left">
-          <img src={cSharp} alt="logo :D" />
-          <img src={css} alt="logo :D" />
-          <img src={figma} alt="logo :D" />
-          <img src={flask} alt="logo :D" />
-          <img src={html} alt="logo :D" />
-        </div>
-        <div className="right">
-          <img src={inkscape} alt="logo :D" />
-          <img src={js} alt="logo :D" />
-          <img src={python} alt="logo :D" />
-          <img src={react} alt="logo :D" />
-          <img src={ts} alt="logo :D" />
-        </div>
+
+      <div className="tech-left">
+        <img src={cSharp} alt="logo :D" />
+        <img src={css} alt="logo :D" />
+        <img src={figma} alt="logo :D" className="ligma" />
+        <img src={pandas} alt="logo :D" />
+        <img src={sklearn} alt="logo :D" />
+        <img src={flask} alt="logo :D" />
+        <img src={html} alt="logo :D" />
+      </div>
+      <div className="tech-right">
+        <img src={arduino} alt="logo :D" />
+        <img src={bash} alt="logo :D" />
+        <img src={inkscape} alt="logo :D" />
+        <img src={js} alt="logo :D" />
+        <img src={python} alt="logo :D" />
+        <img src={react} alt="logo :D" />
+        <img src={ts} alt="logo :D" />
       </div>
     </section>
   );
