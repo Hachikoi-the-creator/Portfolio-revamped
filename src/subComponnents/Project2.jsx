@@ -4,6 +4,9 @@ import blackjackProject from "../img/blackjack-game.webp";
 export default function Project2() {
   return (
     <>
+      <a href="#" className="img project2" target="_blank">
+        <img src={blackjackProject} alt="img" />
+      </a>
       <div className="desc project2 flex-project">
         <h3>Blackjack Game</h3>
         <div className="tech-stack">
@@ -26,9 +29,6 @@ export default function Project2() {
           </a>
         </div>
       </div>
-      <a href="#" className="img project2" target="_blank">
-        <img src={blackjackProject} alt="img" />
-      </a>
     </>
   );
 }

@@ -4,6 +4,9 @@ import googleProject from "../img/google-mod.webp";
 export default function Project4() {
   return (
     <>
+      <a href="#" className="img project4" target="_blank">
+        <img src={googleProject} alt="img" />
+      </a>
       <div className="desc project4 flex-project">
         <h3>Cheat Calculator</h3>
         <div className="tech-stack">
@@ -27,9 +30,6 @@ export default function Project4() {
           </a>
         </div>
       </div>
-      <a href="#" className="img project4" target="_blank">
-        <img src={googleProject} alt="img" />
-      </a>
     </>
   );
 }
