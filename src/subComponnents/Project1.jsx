@@ -4,7 +4,11 @@ import googleProject from "../img/google-mod.webp";
 export default function Project1() {
   return (
     <>
-      <a href="#" className="img project1" target="_blank">
+      <a
+        href="https://google-09.netlify.app/"
+        className="img project1"
+        target="_blank"
+      >
         <img src={googleProject} alt="img" />
       </a>
       <div className="desc project1 flex-project">

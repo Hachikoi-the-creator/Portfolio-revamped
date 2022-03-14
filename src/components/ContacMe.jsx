@@ -36,7 +36,6 @@ export default function ContactMe() {
           <input type="email" name="user_email" id="email" />
           <label htmlFor="message">Message</label>
           <textarea name="message" id="message" />
-          <input type="submit" value="Send" />
           <div class="container">
             <div class="center">
               <button class="btn" type="submit">

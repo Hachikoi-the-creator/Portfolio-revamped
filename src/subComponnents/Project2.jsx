@@ -4,7 +4,11 @@ import blackjackProject from "../img/blackjack-game.webp";
 export default function Project2() {
   return (
     <>
-      <a href="#" className="img project2" target="_blank">
+      <a
+        href="https://blackjack-09.netlify.app/"
+        className="img project2"
+        target="_blank"
+      >
         <img src={blackjackProject} alt="img" />
       </a>
       <div className="desc project2 flex-project">

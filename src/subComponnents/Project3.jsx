@@ -4,7 +4,11 @@ import FlexDocProject from "../img/flesbos.webp";
 export default function Project3() {
   return (
     <>
-      <a href="#" className="img project3" target="_blank">
+      <a
+        href="https://nostalgic-pasteur-18f054.netlify.app/flexamples/pretty-cool"
+        className="img project3"
+        target="_blank"
+      >
         <img src={FlexDocProject} alt="img" />
       </a>
       <div className="desc project3 flex-project">
