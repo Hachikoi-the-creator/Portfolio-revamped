@@ -1,0 +1,114 @@
+// @use './variables';
+$color-1: #590d22;
+$color-2: #800f2f;
+$color-3: #a4133c;
+$color-4: #c9184a;
+$color-5: #ff4d6d;
+$color-6: #ff758f;
+$color-7: #ff8fa3;
+$color-8: #ffb3c1;
+$color-9: #ffccd5;
+
+h2 {
+  text-align: center;
+  padding: 3px 7px;
+  font-size: 5rem;
+  color: $color-4;
+  border-bottom: 5px solid $color-5;
+  border-radius: 7px 7px 0 0;
+}
+
+.contact-me {
+  font-size: 1.7rem;
+  display: flex;
+  background-color: $color-7;
+
+  > div {
+    background-color: $color-9;
+  }
+
+  > div,
+  form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+  }
+
+  form {
+    label {
+      text-align: center;
+    }
+
+    textarea#message {
+      resize: vertical;
+    }
+
+    input,
+    textarea {
+      padding: 1ch;
+      background-color: $color-6;
+      border: $color-2 1px solid;
+    }
+  }
+}
+// Button animation
+.container {
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  position: relative;
+  top: 40px;
+  left: 50%;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid $color-5;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: $color-9;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: $color-2;
+
+  svg {
+    stroke-dashoffset: -480;
+  }
+
+  span {
+    color: $color-9;
+  }
+}
+
+.btn span {
+  color: $color-1;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+// <=700px
+@media screen and (max-width: 700px) {
+  .contact-me {
+    flex-direction: column;
+  }
+}
