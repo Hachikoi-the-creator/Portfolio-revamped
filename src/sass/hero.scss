@@ -1,4 +1,4 @@
-@import "./variables";
+@use "./variables" as *;
 
 .hero {
   height: fit-content;
@@ -40,7 +40,11 @@
   margin: 3ch 15%;
   align-items: center;
 
-  > * {
+  // a {
+  //   width: fit-content;
+  // }
+
+  * {
     width: fit-content;
     position: relative;
   }
@@ -60,6 +64,8 @@
   .linked svg {
     width: 69px;
     fill: $color-3;
+    position: relative;
+    transition: 0.1s ease-in-out;
 
     &:hover {
       fill: $color-1;

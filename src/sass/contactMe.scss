@@ -1,13 +1,4 @@
-// @use './variables';
-$color-1: #590d22;
-$color-2: #800f2f;
-$color-3: #a4133c;
-$color-4: #c9184a;
-$color-5: #ff4d6d;
-$color-6: #ff758f;
-$color-7: #ff8fa3;
-$color-8: #ffb3c1;
-$color-9: #ffccd5;
+@use "./variables" as *;
 
 h2 {
   text-align: center;
@@ -23,12 +14,27 @@ h2 {
   display: flex;
   background-color: $color-7;
 
+  * {
+    color: $color-1;
+  }
+
+  a {
+    color: $color-4;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-2;
+    }
+  }
+
   > div {
     background-color: $color-9;
+    text-align: center;
   }
 
   > div,
   form {
+    position: relative;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -50,6 +56,16 @@ h2 {
       background-color: $color-6;
       border: $color-2 1px solid;
     }
+  }
+
+  h3 {
+    margin-top: 5%;
+  }
+
+  .signature {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
   }
 }
 // Button animation
@@ -110,5 +126,10 @@ svg {
 @media screen and (max-width: 700px) {
   .contact-me {
     flex-direction: column;
+
+    > form,
+    > div {
+      width: 100%;
+    }
   }
 }

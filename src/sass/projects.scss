@@ -1,13 +1,4 @@
-@import "./variables";
-// $color-1: #590d22;
-// $color-2: #800f2f;
-// $color-3: #a4133c;
-// $color-4: #c9184a;
-// $color-5: #ff4d6d;
-// $color-6: #ff758f;
-// $color-7: #ff8fa3;
-// $color-8: #ffb3c1;
-// $color-9: #ffccd5;
+@use "./variables" as *;
 
 .pp-container {
   width: 80%;
@@ -52,13 +43,15 @@
   }
 
   // Layout for big screen
-  a {
-    fill: $color-5;
-    color: $color-5;
+  a,
+  svg {
+    fill: $color-3;
+    color: $color-3;
+    transition: 0.1s ease-in-out;
 
     &:hover {
-      fill: $color-3;
-      color: $color-3;
+      fill: $color-1;
+      color: $color-1;
     }
 
     &.project1 {

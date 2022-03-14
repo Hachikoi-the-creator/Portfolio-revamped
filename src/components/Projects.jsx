@@ -1,5 +1,6 @@
 import React from "react";
 import "../sass/projects.scss";
+import "../sass/projectsImgs.scss";
 import Project1 from "../subComponnents/Project1";
 import Project2 from "../subComponnents/Project2";
 import Project3 from "../subComponnents/Project3";

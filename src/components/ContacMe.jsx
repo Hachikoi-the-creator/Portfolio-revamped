@@ -31,11 +31,12 @@ export default function ContactMe() {
       <section className="contact-me" id="contact-me">
         <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="name">Name</label>
-          <input type="text" name="user_name" id="name" required />
+          <input type="text" name="user_name" id="name" />
           <label htmlFor="email">Email</label>
-          <input type="email" name="user_email" id="email" required />
+          <input type="email" name="user_email" id="email" />
           <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" required />
+          <textarea name="message" id="message" />
+          <input type="submit" value="Send" />
           <div class="container">
             <div class="center">
               <button class="btn" type="submit">
@@ -54,16 +55,21 @@ export default function ContactMe() {
                     class="hl-line"
                   />
                 </svg>
-                <span>HOVER ME</span>
+                <span>Send</span>
               </button>
             </div>
           </div>
         </form>
         <div>
           <h3>Take a look at my resume</h3>
-          <a href="#">resume link</a>
+          <a href="#">here 📎</a>
           <h3>Bussines email</h3>
-          <a href="#">emil link</a>
+          <p>vip.hd777@gmail.com</p>
+          <h3>Phone number</h3>
+          <p>+871 576 1593</p>
+          <h3>Location</h3>
+          <p>Mexico 🇲🇽</p>
+          <p className="signature">Made by 8koi</p>
         </div>
       </section>
     </>
