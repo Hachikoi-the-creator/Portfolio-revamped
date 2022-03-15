@@ -17,7 +17,7 @@ import bash from "../img/stack/bash-icon.svg";
 
 export default function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about">
       <h2 className="title">ABOUT ME</h2>
 
       <div className="desc">

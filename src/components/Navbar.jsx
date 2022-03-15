@@ -34,17 +34,17 @@ export default function Navbar() {
           </a>
         </li>
         <li>
-          <a onClick={() => setBurger(false)} href="#">
+          <a onClick={() => setBurger(false)} href="#about">
             About
           </a>
         </li>
         <li>
-          <a onClick={() => setBurger(false)} href="#">
+          <a onClick={() => setBurger(false)} href="#projects">
             Projects
           </a>
         </li>
         <li>
-          <a onClick={() => setBurger(false)} href="#">
+          <a onClick={() => setBurger(false)} href="#contact">
             Contact Me
           </a>
         </li>

@@ -26,9 +26,9 @@ export default function ContactMe() {
   };
 
   return (
-    <>
+    <section id="contact">
       <h2>Contact Me</h2>
-      <section className="contact-me" id="contact-me">
+      <section className="contact-me">
         <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="name">Name</label>
           <input type="text" name="user_name" id="name" />
@@ -71,6 +71,6 @@ export default function ContactMe() {
           <p className="signature">Made by 8koi</p>
         </div>
       </section>
-    </>
+    </section>
   );
 }
