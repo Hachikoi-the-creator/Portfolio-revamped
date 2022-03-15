@@ -68,8 +68,10 @@ export default function ContactMe() {
           <a href="9uduR8Ybe">Here📎</a>
           <h3>Bussines email</h3>
           <p>vip.hd777@gmail.com</p>
-          <h3>Phone number</h3>
-          <p>+871 576 1593</p>
+          <h3>Whatsapp</h3>
+		  <p>+52 871 510 9227</p>
+		  <h3>Phone number</h3>
+		  <p>+52 618 334 4744</p>
           <h3>Location</h3>
           <p>Mexico 🇲🇽</p>
           <p className="signature">Made by 8koi</p>
