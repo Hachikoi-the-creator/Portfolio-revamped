@@ -1,8 +1,10 @@
 import "../sass/contactMe.scss";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function ContactMe() {
+  const [disable, setDisable] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,6 +19,8 @@ export default function ContactMe() {
       )
       .then(
         (result) => {
+          setDisable(true);
+          alert("Email sent sucessfully!");
           console.log(result.text);
         },
         (error) => {
@@ -31,14 +35,14 @@ export default function ContactMe() {
       <section className="contact-me">
         <form ref={form} onSubmit={sendEmail}>
           <label htmlFor="name">Name</label>
-          <input type="text" name="user_name" id="name" />
+          <input type="text" name="user_name" id={`name`} />
           <label htmlFor="email">Email</label>
-          <input type="email" name="user_email" id="email" />
+          <input type="email" name="user_email" id={`email`} />
           <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" />
+          <textarea name="message" id={`message ${"a"}`} />
           <div class="container">
             <div class="center">
-              <button class="btn" type="submit">
+              <button class="btn" type="submit" id={disable ? "diss-btn" : ""}>
                 <svg
                   width="180px"
                   height="60px"
@@ -54,14 +58,14 @@ export default function ContactMe() {
                     class="hl-line"
                   />
                 </svg>
-                <span>Send</span>
+                <span>{disable ? "MESSAGE SENT!" : "Send"}</span>
               </button>
             </div>
           </div>
         </form>
         <div>
           <h3>Take a look at my resume</h3>
-          <a href="#">here 📎</a>
+          <a href="9uduR8Ybe">Here📎</a>
           <h3>Bussines email</h3>
           <p>vip.hd777@gmail.com</p>
           <h3>Phone number</h3>

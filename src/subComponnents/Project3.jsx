@@ -13,6 +13,7 @@ export default function Project3() {
               <a
                 href="https://nostalgic-pasteur-18f054.netlify.app/flexamples/pretty-cool"
                 className="project-icon"
+                target={"_blank"}
               >
                 <span>
                   Preview
@@ -24,6 +25,7 @@ export default function Project3() {
               <a
                 href="https://github.com/Hachikoi-the-creator/FlexboxDisplay"
                 className="project-icon"
+                target={"_blank"}
               >
                 <span>
                   Github

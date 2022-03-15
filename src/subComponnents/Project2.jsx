@@ -11,8 +11,9 @@ export default function Project2() {
 
             <div className="pic-icons">
               <a
-                href="https://nostalgic-pasteur-18f054.netlify.app/flexamples/pretty-cool"
+                href="https://blackjack-09.netlify.app/"
                 className="project-icon"
+                target={"_blank"}
               >
                 <span>
                   Preview
@@ -22,8 +23,9 @@ export default function Project2() {
                 </span>
               </a>
               <a
-                href="https://github.com/Hachikoi-the-creator/FlexboxDisplay"
+                href="https://github.com/Hachikoi-the-creator/Blackjack_Project"
                 className="project-icon"
+                target={"_blank"}
               >
                 <span>
                   Github
