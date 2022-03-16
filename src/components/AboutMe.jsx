@@ -18,14 +18,15 @@ import bash from "../img/stack/bash-icon.svg";
 export default function AboutMe() {
   return (
     <section className="about-me" id="about">
-      <h2 className="title">ABOUT ME</h2>
+      <h2 className="title">Sobre mi</h2>
 
       <div className="desc">
         <p>
-          I'm a front-end developer, I love to code and I also love to improve
-          as a person and as a developer 💻. I started my journey in machine
-          learning, trained a model to detect if a woman has breast cancer, now
-          I'm just giving my all to web development 🕸️.
+          Soy un desarrolador we, me encanta escribir codigo y tambien es ser
+          una mejor persona y un mejor desarrollador dia con dia 💻. Empezé mi
+          travesia con modelos de inteligencia artifical en donde entrené un
+          modelo para detectar si una mujer tenia cancer de pecho con una
+          certeza del 94%, ahora lo estoy dando todo al desarrollo web 🕸️!
         </p>
       </div>
 

@@ -30,7 +30,8 @@ export default function Navbar() {
         </li>
         <li>
           <a onClick={() => setBurger(false)} href="#" className="extra-link">
-            Home
+            {/* Home */}
+            Inicio
           </a>
         </li>
         <li>
@@ -39,7 +40,8 @@ export default function Navbar() {
             href="#about"
             className="extra-link"
           >
-            About
+            {/* About */}
+            Acerca de
           </a>
         </li>
         <li>
@@ -48,7 +50,8 @@ export default function Navbar() {
             href="#projects"
             className="extra-link"
           >
-            Projects
+            Proyectos
+            {/* Projects */}
           </a>
         </li>
         <li>
@@ -57,7 +60,8 @@ export default function Navbar() {
             href="#contact"
             className="extra-link"
           >
-            Contact Me
+            Contacto
+            {/* Contact Me */}
           </a>
         </li>
       </ul>

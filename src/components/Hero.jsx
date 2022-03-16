@@ -8,8 +8,25 @@ export default function Hero() {
     <section className="hero">
       <div className="content">
         <h1>
-          Hi 👋! I'm Adan Moreno
+          {/* Hi 👋! I'm Adan Moreno */}
+          Hola! 👋 Soy Adan Moreno
           <Typical
+            steps={[
+              "Programador 💻",
+              1200,
+              "Desarrollador web 🕸️",
+              1300,
+              "Aprendiz de por vida 🧠",
+              1700,
+              "Gamer 🎮",
+              1000,
+              "No soy diseñador 😛",
+              1400,
+            ]}
+            loop={Infinity}
+            wrapper="p"
+          />
+          {/* <Typical
             steps={[
               "Programmer 💻",
               1200,
@@ -24,7 +41,7 @@ export default function Hero() {
             ]}
             loop={Infinity}
             wrapper="p"
-          />
+          /> */}
         </h1>
         <img src={bigLogo} alt="Cool logo whit a computer, and blue gradient" />
       </div>
