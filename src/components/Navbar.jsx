@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import i18n from "i18next";
 import { useTranslation } from "react-i18next";
 import "../sass/navbar.scss";
 import nameLogo from "../img/nick-logo.svg";
@@ -6,8 +7,17 @@ import useWindowDimensions from "./CustomMedia";
 
 export default function Navbar() {
   const { t } = useTranslation();
+  let CurrentLang = i18n.language == "en" ? "🇬🇧 EN" : "🇲🇽 ES";
 
-  const [burger, setBurger] = React.useState(false);
+  function changeLan() {
+    if (i18n.language == "en") {
+      i18n.changeLanguage("es");
+    } else {
+      i18n.changeLanguage("en");
+    }
+  }
+
+  const [burger, setBurger] = useState(false);
   const { height, width } = useWindowDimensions();
 
   return (
@@ -62,6 +72,9 @@ export default function Navbar() {
           >
             {t("nav link 4")}
           </a>
+        </li>
+        <li>
+          <button onClick={changeLan}>{CurrentLang}</button>
         </li>
       </ul>
       {/* <h1>

@@ -1,6 +1,7 @@
 import React from "react";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 import "./app.css";
 import EnglishData from "./lang/EnglishData";
 import SpanishData from "./lang/EspanishData";
@@ -11,7 +12,8 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
 i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
+  .use(initReactI18next)
+  .use(LanguageDetector)
   .init({
     resources: {
       en: {
@@ -21,7 +23,10 @@ i18n
         translation: SpanishData,
       },
     },
-    lng: document.querySelector("html").lang,
+    detection: {
+      order: ["path", "cookie", "htmlTag"],
+      caches: ["cookie"],
+    },
     fallbackLng: "en",
   });
 
