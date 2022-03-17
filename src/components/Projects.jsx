@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../sass/projects.scss";
 import Project1 from "../subComponnents/Project1";
 import Project2 from "../subComponnents/Project2";
@@ -10,9 +11,11 @@ import Desc3 from "../subComponnents/Desc3";
 import Desc4 from "../subComponnents/Desc4";
 
 export default function Projects() {
+  const { t } = useTranslation();
+
   return (
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>{t("projects main")}</h2>
       <section className="master-project">
         <Project1 />
         <Desc1 />

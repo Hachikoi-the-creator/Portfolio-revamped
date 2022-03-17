@@ -1,5 +1,5 @@
 /* @charset "UTF-8"; */
-html, 
+html,
 body {
   scroll-behavior: smooth;
 }
@@ -23,8 +23,4 @@ a {
 
 body {
   background: #ffb3c1;
-}
-
-#fuck {
-  height: 200vh;
 }

@@ -1,47 +1,33 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../sass/hero.scss";
 import Typical from "react-typical";
 import bigLogo from "../img/main-logo.svg";
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
       <div className="content">
         <h1>
-          {/* Hi 👋! I'm Adan Moreno */}
-          Hola! 👋 Soy Adan Moreno
+          {t("hero greet")}
           <Typical
             steps={[
-              "Programador 💻",
+              t("hero type 1"),
               1200,
-              "Desarrollador web 🕸️",
+              t("hero type 2"),
               1300,
-              "Aprendiz de por vida 🧠",
+              t("hero type 3"),
               1700,
-              "Gamer 🎮",
+              t("hero type 4"),
               1000,
-              "No soy diseñador 😛",
+              t("hero type 5"),
               1400,
             ]}
             loop={Infinity}
             wrapper="p"
           />
-          {/* <Typical
-            steps={[
-              "Programmer 💻",
-              1200,
-              "Web Developer 🕸️",
-              1300,
-              "Lifelong Learner 🧠",
-              1500,
-              "Gamer 🎮",
-              1000,
-              "Not a designer 😛",
-              1400,
-            ]}
-            loop={Infinity}
-            wrapper="p"
-          /> */}
         </h1>
         <img src={bigLogo} alt="Cool logo whit a computer, and blue gradient" />
       </div>

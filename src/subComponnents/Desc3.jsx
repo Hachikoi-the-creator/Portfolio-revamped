@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Desc3() {
+  const { t } = useTranslation();
+
   return (
     <div className="desc3">
-      <h3>Flexbox documentacion</h3>
+      <h3>{t("project 3 title")}</h3>
       <div className="tech-stack">
         <span className="tech sass">SASS</span>
         <span className="tech css">CSS</span>
@@ -12,13 +15,7 @@ export default function Desc3() {
         <span className="tech ts">TypeScript</span>
         <span className="tech js">JavaScript</span>
       </div>
-      <p>
-        Esta fue una idea que tuvue mientras aprendia sobre Flexbox que es una
-        herramienta muy usada por desarrolladores, basicamente tiene el codigo y
-        ejemplos de todo lo que se puede hacer con dicha herramienta, asi como
-        la posibilidad de cambiar el tamaño del contenedor para ver como se
-        comporta.
-      </p>
+      <p>{t("project 3 desc")}</p>
     </div>
   );
 }

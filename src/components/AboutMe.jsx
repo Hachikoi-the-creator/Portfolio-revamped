@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "../sass/aboutMe.scss";
 import cSharp from "../img/stack/csharp-icon.svg";
 import css from "../img/stack/css-icon.svg";
@@ -16,18 +17,14 @@ import sklearn from "../img/stack/sklearn-icon.svg";
 import bash from "../img/stack/bash-icon.svg";
 
 export default function AboutMe() {
+  const { t } = useTranslation();
+
   return (
     <section className="about-me" id="about">
-      <h2 className="title">Sobre mi</h2>
+      <h2 className="title">{t("about title")}</h2>
 
       <div className="desc">
-        <p>
-          Soy un desarrolador we, me encanta escribir codigo y tambien es ser
-          una mejor persona y un mejor desarrollador dia con dia 💻. Empezé mi
-          travesia con modelos de inteligencia artifical en donde entrené un
-          modelo para detectar si una mujer tenia cancer de pecho con una
-          certeza del 94%, ahora lo estoy dando todo al desarrollo web 🕸️!
-        </p>
+        <p>{t("about desc")}</p>
       </div>
 
       <div className="tech-left">

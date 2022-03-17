@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Desc4() {
+  const { t } = useTranslation();
+
   return (
     <div className="desc4">
-      <h3>Copia de Google</h3>
+      <h3>{t("project 4 title")}</h3>
       <div className="tech-stack">
         <span className="tech sass">SASS</span>
         <span className="tech css">CSS</span>
@@ -12,12 +15,7 @@ export default function Desc4() {
         <span className="tech ts">TypeScript</span>
         <span className="tech js">JavaScript</span>
       </div>
-      <p>
-        Este fue mi primer projecto completo, La verda no tenia la suficente
-        experiencia en el momento y por alguna razon trate de hacerlo sin buscar
-        como hacerlo en internet, despues de mucho batallar decidi buscar ayuda
-        y logré hacerlo!
-      </p>
+      <p>{t("project 4 desc")}</p>
     </div>
   );
 }
