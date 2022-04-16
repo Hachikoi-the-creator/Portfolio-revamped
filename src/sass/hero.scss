@@ -50,8 +50,7 @@
   }
 
   .resume {
-    translate: 100%;
-    transform: translateY(-166%);
+    transform: translateY(-166%) translateX(100%);
   }
 
   .github svg,

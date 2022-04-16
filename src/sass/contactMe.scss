@@ -41,6 +41,7 @@ h2 {
     display: flex;
     flex-direction: column;
     padding: 23px;
+    justify-content: space-around;
   }
 
   form {
@@ -126,6 +127,19 @@ svg {
   color: $color-1;
   font-size: 18px;
   font-weight: 100;
+}
+
+.contact-info {
+  position: relative;
+
+  a {
+    display: block;
+    height: fit-content;
+  }
+
+  a img {
+    width: 27px;
+  }
 }
 
 // <=700px
