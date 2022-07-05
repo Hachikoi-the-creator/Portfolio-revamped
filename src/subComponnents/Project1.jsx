@@ -1,5 +1,6 @@
 import React from "react";
-import googleProject from "../img/google-mod.webp";
+// import googleProject from "../img/google-mod.webp";
+import img from "../img/marketplace.webp";
 
 export default function Project1() {
   return (
@@ -7,11 +8,11 @@ export default function Project1() {
       <section className="project-main">
         <div className="big-container">
           <div className="project img1">
-            <img src={googleProject} alt="Avatar" className="image" />
+            <img src={img} alt="Avatar" className="image" />
 
             <div className="pic-icons">
               <a
-                href="https://google-09.netlify.app/"
+                href="https://nft-marketplace-vite.vercel.app/"
                 className="project-icon"
                 target={"_blank"}
               >

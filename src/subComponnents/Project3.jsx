@@ -1,5 +1,6 @@
 import React from "react";
-import FlexDocProject from "../img/flesbos.webp";
+// import FlexDocProject from "../img/flesbos.webp";
+import img from "../img/dynamic-nft.webp";
 
 export default function Project3() {
   return (
@@ -7,11 +8,11 @@ export default function Project3() {
       <section className="project-main">
         <div className="big-container">
           <div className="project img3">
-            <img src={FlexDocProject} alt="Avatar" className="image" />
+            <img src={img} alt="Avatar" className="image" />
 
             <div className="pic-icons">
               <a
-                href="https://nostalgic-pasteur-18f054.netlify.app/flexamples/pretty-cool"
+                href="https://coolest-dynamic-nft.vercel.app/"
                 className="project-icon"
                 target={"_blank"}
               >

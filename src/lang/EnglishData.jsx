@@ -34,21 +34,17 @@ export default {
   "contact info phone": "Business Phone",
   "contact info pos": "Located in Mexico",
   "contact info sign": "Page made whit 💖 by 8koi",
-  // --- //
+  // ---Projects--- //
   "projects main": "Projects",
-  "project 1 title": "Google Copy",
+  "project 1 title": "NFT Marketplace",
   "project 1 desc":
-    "This was my first full project, to be honest I did not had the skill to solve it, I even had no idea about how to make a navbar and forced myself to do it without looking for help, until I decided to google things up and finished it!",
+    "Using the API from pinata, makes the user able to create their own nfts, and upload the image and the metadata as well as directly send them to the marketplace, but of course the marketplace gets it's cut!",
   //
-  "project 2 title": "Blackjack Game",
+  "project 2 title": "web3 Twitter clone",
   "project 2 desc":
-    "This is a project I started by coding along in Scrimba, I had the idea and the basic logic down, then the challenge was to add another player as well as the weird rules of the game, bet system etc.",
+  "Using Moralis DB service & their hooks, the user gets the option to normally post a tweet or make it permanent by twetting to the mumbai network!, also has the chance to set one of his nfts as profile picture!",
   //
-  "project 3 title": "Flexbox Docs",
+  "project 3 title": "Dynamic NFT",
   "project 3 desc":
-    "I had this idea while learning about Flexbox, the biggest challenge was to find a library for the code highlighting that alone took me around 2 weeks, once that was done, I had to figure out how the code & pre tag works and fix the styles until I was satisfied",
-  //
-  "project 4 title": "Calculator 3000",
-  "project 4 desc":
-    "I tried to make this app whit vanilla JS, but after having problems whit typos more than nothing I decided it could be a good small project to learn TS and it has been the best choice I have ever made!",
+    "The user can mint a dynamic NFT, made possible whit Chainlink's contract automatization, as well as their Oracle services to get the price of ETH/USD",
 };

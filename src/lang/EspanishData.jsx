@@ -33,21 +33,17 @@ export default {
   "contact info phone": "Teléfono de negocios",
   "contact info pos": "Ubicado en México",
   "contact info sign": "Hecho con 💖 por 8koi",
-  // --- //
+  // ---Proyectos--- //
   "projects main": "Proyectos",
-  "project 1 title": "Copia de Google",
+  "project 1 title": "Mercado de NFTs",
   "project 1 desc":
-    "Este fue mi primer proyecto completo, La verdad no tenía la suficiente experiencia en el momento y por alguna razón traté de hacerlo sin buscar como hacerlo en internet, ¡después de mucho batallar decidí buscar ayuda y logré hacerlo!",
+    "Usando la API de piñata, hace possible que el usuario sea capaz de crear su propio NFT y automaticamente publicarlo en el mercado, y por supuesto en mercado se queda con su comision!",
   //
-  "project 2 title": "Juego de Blackjack",
+  "project 2 title": "Copia web3 de twitter",
   "project 2 desc":
-    "Este fue un proyecto que empezó con un curso en Scrimba, la idea y lo básico del juego lo copié, y la idea de otro jugador y mostrar quien gana, así como el ganar o perder y sistema de apuestas",
+    "Usando el servicio de BD de Moralis haci como sus hooks, le da la option al usuario de publicar un twit normal o de hacerlo de forma permanente por medio de la red mumbai, asi como usar uno de sus NFT como foto de perfil",
   //
-  "project 3 title": "Documentación Flexbox",
+  "project 3 title": "NFT dinamico",
   "project 3 desc":
-    "Esta fue una idea que tuve mientras aprendía sobre Flexbox que es una herramienta muy usada por desarrolladores, básicamente tiene el código y ejemplos de todo lo que se puede hacer con dicha herramienta, así como la posibilidad de cambiar el tamaño del contenedor para ver cómo se comporta.",
-  //
-  "project 4 title": "Calculadora de 3 sistemas",
-  "project 4 desc":
-    "Intenté hacerlo con vanilla JS, pero después de mucho batallar con typos, etc. Decidí aprender TS, fue la mejor decisión que he tomado en mucho tiempo :D",
+    "El usuario puede obtener un NFT que cambia dependiendo del precio del par ETH/USD, esto es posible gracias a la automatizacion de contratos por parte de Chainlink, asi como de sus servicios de Oracle",
 };

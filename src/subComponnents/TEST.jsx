@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 function UserInfo({ name }) {
-  const [user, setUser] = React.useState({ name: name });
-  React.useEffect(() => {
+  const [user, setUser] = useState({ name: name });
+  useEffect(() => {
     setUser({
       name: user.name,
       avatar: `//ui-avatars.com/api/?name=${user.name}`,
@@ -13,9 +13,9 @@ function UserInfo({ name }) {
 
 function Avatar(props) {
   console.log(`re-render avatar for ${JSON.stringify(props.user)}`);
-  const [user, setUser] = React.useState({ ...props.user });
+  const [user, setUser] = useState({ ...props.user });
 
-  React.useEffect(() => {
+  useEffect(() => {
     setUser(props.user);
   }, [props.user]);
 

@@ -1,5 +1,6 @@
 import React from "react";
-import blackjackProject from "../img/blackjack-game.webp";
+// import blackjackProject from "../img/blackjack-game.webp";
+import img from "../img/web3-twitter.webp";
 
 export default function Project2() {
   return (
@@ -7,11 +8,11 @@ export default function Project2() {
       <section className="project-main">
         <div className="big-container">
           <div className="project img2">
-            <img src={blackjackProject} alt="Avatar" className="image" />
+            <img src={img} alt="Avatar" className="image" />
 
             <div className="pic-icons">
               <a
-                href="https://blackjack-09.netlify.app/"
+                href="https://twitter-clone-web3-eta.vercel.app/"
                 className="project-icon"
                 target={"_blank"}
               >
