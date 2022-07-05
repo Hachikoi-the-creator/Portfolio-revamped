@@ -13,10 +13,11 @@ export default {
   "hero type 3": "Lifelong Learner 🧠",
   "hero type 4": "Gamer 🎮",
   "hero type 5": "Not a Designer 😛",
+  "hero type 6": "Blockchain developer 🧱",
   // --- // done
   "about title": "About Me",
   "about desc":
-    "I'm a front-end web developer, I love to write code as well as the self-improvement culture, aiming to be a better person and a better developer whit each day 💻!. I started my journey whit Python and the got into Machine Learning, my biggest achievement there was to train a model to detect breast cancer on women whit 94% of precision. Now I'm giving my all to web development 🕸️!",
+    "I'm a web3 full-stack developer & I love to write code!. I'm currently working in an ERC20 trading platform for a pretty interesting NFT project, my prodest work I'd say is the dynamic NFT, took me a lot of time to figure out how all the pieces work togheter, but thanks to that, now I can't forget!",
   // --- // done
   "contact title": "Contact Me",
   "contact form name": "Name",

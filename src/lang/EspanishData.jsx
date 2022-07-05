@@ -12,10 +12,11 @@ export default {
   "hero type 3": "Aprendiz de por vida 🧠",
   "hero type 4": "Gamer 🎮",
   "hero type 5": "No soy diseñador 😛",
+  "hero type 6": "Desarrollador blockchain 🧱",
   // --- //
   "about title": "Sobre Mi",
   "about desc":
-    "Soy un desarrollador web, me encanta escribir código y también mejorar mi persona y mis habilidades de desarrollador día con día 💻. Empecé mi travesía con modelos inteligencia artificial en donde entrené un modelo para detectar si una mujer de una certeza del 94%, ahora lo estoy dando todo al desarrollo web 🕸️!",
+    "Soy un desarrollador full-stack de web3, me encanta escribir codigo. El proyecto en el que estoy trabajando actualmente es una pagina para intercambiar ETH por cierto ERC20 que a su ves es parte de un projecto NFT, mi mayor logro seria el proyecto del NFT dinamico, ya que son varias piezas que tienen que trabajar en conjunto",
   // --- //
   "contact title": "Contacto",
   "contact form name": "Nombre",

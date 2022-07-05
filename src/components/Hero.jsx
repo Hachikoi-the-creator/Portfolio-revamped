@@ -24,6 +24,8 @@ export default function Hero() {
               1000,
               t("hero type 5"),
               1400,
+              t("hero type 6"),
+              1300,
             ]}
             loop={Infinity}
             wrapper="p"
