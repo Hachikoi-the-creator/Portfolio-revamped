@@ -67,7 +67,7 @@
   width: 150px;
 }
 
-.hidde-left {
+.hidde-left { 
   transition: all 0.5s ease-in-out;
   transform: translateX(-120%);
   right: 100%;
@@ -97,6 +97,7 @@
     font-size: 2.6rem;
     font-weight: 700;
     transition: 0.1s ease-in-out;
+    padding: 3px 7px;
   }
 
   .extra-link {
@@ -109,19 +110,16 @@
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 100%;
+      width: 0;
       height: 0.15em;
       background-color: $color-1;
-      transition: opacity 150ms, transform 300ms;
-      opacity: 0;
-      transform: translate3d(-100%, 0, 0);
+      transition: all 0.6s cubic-bezier(.68,-0.55,.27,1.55);
       border-radius: 7px;
     }
 
     &:hover::after,
     &:focus::after {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
+      width: 100%;
     }
   }
 
