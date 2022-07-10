@@ -24,7 +24,7 @@ export default function Project3() {
                 </span>
               </a>
               <a
-                href="https://github.com/Hachikoi-the-creator/FlexboxDisplay"
+                href="https://github.com/Hachikoi-the-creator/Coolest-Dynamic-NFT"
                 className="project-icon"
                 target={"_blank"}
               >

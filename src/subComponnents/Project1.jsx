@@ -24,7 +24,7 @@ export default function Project1() {
                 </span>
               </a>
               <a
-                href="https://github.com/Hachikoi-the-creator/Google-main-page"
+                href="https://github.com/Hachikoi-the-creator/NFT-marketplace-vite"
                 className="project-icon"
                 target={"_blank"}
               >

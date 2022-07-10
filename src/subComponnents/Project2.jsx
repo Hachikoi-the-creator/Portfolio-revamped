@@ -24,7 +24,7 @@ export default function Project2() {
                 </span>
               </a>
               <a
-                href="https://github.com/Hachikoi-the-creator/Blackjack_Project"
+                href="https://github.com/Hachikoi-the-creator/Twitter-clone-Web3"
                 className="project-icon"
                 target={"_blank"}
               >
