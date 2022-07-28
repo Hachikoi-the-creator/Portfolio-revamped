@@ -92,7 +92,7 @@ export default function ContactMe() {
           <a href="9uduR8Ybe">{t("contact info res2")}📎</a>
 
           <h3>{t("contact info email")}</h3>
-          <a href="mailto:vip.hd777@gmail.com">
+          <a href="mailto:adan.more70@gmail.com">
             <img src={emailApp} alt="email lil icon uwu" />
           </a>
 
